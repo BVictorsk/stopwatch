@@ -1,0 +1,103 @@
+:root {
+    --dark-color: #111;
+    --light-color: #eee;  
+}
+
+/* dark mode */
+  
+body.dark-mode {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+body.dark-mode h1, h2{
+    color: var(--light-color);
+}
+
+body.dark-mode p{
+    color: var(--light-color);
+}
+
+body.dark-mode #button-start{
+        background-color: #39ff14;
+        color: var(--dark-color);
+        font-weight: bold;
+}
+body.dark-mode #button-stop{
+        background-color: #ff0000;
+        color: var(--dark-color);
+        font-weight: bold;
+}
+body.dark-mode #button-reset{
+        background-color: #ffff00;
+        color: var(--dark-color);
+        font-weight: bold;
+}
+
+/* light mode */
+body.light-mode {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+body.light-mode h1, h2{
+    color: var(--dark-color);
+  }
+
+body.light-mode  button {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    
+  }
+
+/**/
+
+body {
+    background: #fff;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-align: center;
+    margin: 2em;
+    flex: 1;
+
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2, p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size:3em;
+    text-transform: uppercase;
+    color: black;
+}
+
+button{
+    background:  #fff;
+    color: black;
+    height: 4rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-decoration: none; 
+    margin: 10px;
+}
+
+#button-start{
+    border: solid 2px #39ff14;
+    color: #39ff14;
+}
+
+#button-stop{
+    border: solid 2px #ff0000;
+    color: #ff0000;
+}
+
+#button-reset{
+    border: solid 2px #ffff00;
+    color: #ffff00;
+}
