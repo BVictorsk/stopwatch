@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee:wght@400&display=swap');
+
+.stopwatch-container {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+.content-container {
+    width: 95%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stopwatch-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bungee', sans-serif;
+    border-radius: 30px;
+    background: #9190f9;
+    box-shadow: inset 43px 43px 86px #7372c5,
+                inset -43px -43px 86px #afaeff;
+}
+
+.circle{
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #8f8dff, #7977dd);
+    box-shadow:  14px 14px 28px #4f4e91,
+                 -14px -14px 28px #bdbaff;
+}
+
+.formatTime-container {
+    width: 25rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #fff;
+    border-radius: 2px;
+    background: #424257;
+    box-shadow: inset 6px 6px 11px #20202a,
+                inset -6px -6px 11px #646484;
+    margin: 3rem 0 1rem 0;
+}
+
+.list-container {
+    flex: 1;
+    list-style-type: none;
+}
+
+.list-container ul {
+    list-style-type: none;
+    margin: 1rem;
+    width: 100%;
+    padding: 2rem;
+    height: 44rem;
+    max-height: 44rem;  
+    overflow-y: scroll;
+}
+
+ul li {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 500;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 13px;
+    background: #9190f9;
+    box-shadow:  4px 4px 7px #7b7ad4,
+                 -4px -4px 7px #a7a6ff;
+}
+
+button {
+    border-radius: 3px;
+    background: #9190f9;
+    box-shadow:  8px 8px 17px #7170c2,
+                 -8px -8px 17px #b1b0ff;
+    border: none;
+    margin: 1rem;
+    width: 5rem;
+    height: 2.5rem;
+    color: #fff;
+    font-weight: 700;
+}

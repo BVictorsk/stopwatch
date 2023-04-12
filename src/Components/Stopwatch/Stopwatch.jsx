@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import './Stopwatch.css'
 
 function Stopwatch() {
   const [isRunning, setIsRunning] = useState(false);
@@ -54,22 +55,32 @@ function Stopwatch() {
   }
 
   return (
-    <div>
-      <h1>Stopwatch</h1>
-      <p>{formatTime()}</p>
-      <button onClick={startStop}>{isRunning ? 'Stop' : 'Start'}</button>
-      <button onClick={reset}>Reset</button>
-      <button onClick={loop}>Loop</button>
-      {loopTimes.length > 0 && (
-        <div>
-          <h2>Loop times:</h2>
-          <ul>
-            {loopTimes.map((loopTime, index) => (
-              <li key={index}>{loopTime}</li>
-            ))}
-          </ul>
-        </div>
-      )}
+    <div className="stopwatch-container">
+      <div className="content-container">
+        <div className="stopwatch-content">
+          <div className="circle">
+            <div className="formatTime-container">
+              <p>{formatTime()}</p>
+            </div>
+          
+            <div className="btn-container">
+              <button onClick={startStop}>{isRunning ? 'Stop' : 'Start'}</button>
+              <button onClick={reset}>Reset</button>
+              <button onClick={loop}>Loop</button>
+            </div>
+          </div>
+        </div>     
+        <div className="list-container">
+          {loopTimes.length > 0 && (
+            <ul>
+              {loopTimes.map((loopTime, index) => (
+                <li key={index}>{loopTime}</li>
+              ))}
+            </ul>
+          )}
+        </div>   
+      </div>
+      
     </div>
   );
 }

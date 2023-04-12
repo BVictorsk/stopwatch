@@ -12,14 +12,22 @@
     color: white;
     border: none;
     cursor: pointer;
-    flex: 1;
-    border: 1px solid black;
+    width: 49%;
+    margin: .5rem;
     text-align: center;
-    background-color: #ad0a1a;
+    border-radius: 13px;
+    background: #8281ea;
+    box-shadow:  4px 4px 7px #6f6ec7,
+                 -4px -4px 7px #9694ff;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .tab-button--selected {
-    background-color: #fa0f26;
+    border-radius: 13px;
+    background: #9190f9;
+    box-shadow:  4px 4px 7px #7b7ad4,
+                -4px -4px 7px #a7a6ff;
 }
 
 
@@ -30,14 +38,15 @@
 }
 
 .tab-content {
+    margin-top: .5rem;
     padding: 1rem;
-    height: 50rem;
+    height: 55rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
     gap: 2rem;
-    background-color: green;
+    
 }
 
