@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 90%;
+}
+
+.tab-button {
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    flex: 1;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #ad0a1a;
+}
+
+.tab-button--selected {
+    background-color: #fa0f26;
+}
+
+
+.tab-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.tab-content {
+    padding: 1rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    gap: 2rem;
+    background-color: green;
+}
+
