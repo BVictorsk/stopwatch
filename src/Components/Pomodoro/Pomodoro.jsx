@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import './Pomodoro.css'
 
 const PomodoroTimer = () => {
   const [currentTimer, setCurrentTimer] = useState(25 * 60); // em segundos
@@ -34,16 +35,16 @@ const PomodoroTimer = () => {
   }, [isRunning]);
 
   return (
-    <div>
-      <div>
+    <div className="pomodoro-circle">
+      <div className="pomodoro-btn-container">
         <button onClick={() => setCurrentTimer(25 * 60)}>25min</button>
         <button onClick={() => setCurrentTimer(5 * 60)}>5min</button>
         <button onClick={() => setCurrentTimer(15 * 60)}>15min</button>
       </div>
-      <div>
+      <div className="display-pomodoro">
         <p>{Math.floor(timeLeft / 60)}:{("0" + (timeLeft % 60)).slice(-2)}</p>
       </div>
-      <div>
+      <div className="btn-start-stop">
         {!isRunning ? (
           <button onClick={startTimer}>Start</button>
         ) : (

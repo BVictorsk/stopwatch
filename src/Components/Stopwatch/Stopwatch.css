@@ -26,11 +26,14 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 2rem;
+    Letter-spacing: 1rem;
     font-family: 'Bungee', sans-serif;
-    border-radius: 30px;
+    border-radius: 3rem;
     background: #9190f9;
-    box-shadow: inset 43px 43px 86px #7372c5,
-                inset -43px -43px 86px #afaeff;
+    background: linear-gradient(145deg, #9b9aff, #8382e0);
+    box-shadow:  6px 6px 12px #575695,
+                 -6px -6px 12px #cbcaff;
 }
 
 .circle{
@@ -50,7 +53,6 @@ h1 {
 .formatTime-container {
     width: 25rem;
     text-align: center;
-    font-size: 1.4rem;
     color: #fff;
     border-radius: 2px;
     background: #424257;
