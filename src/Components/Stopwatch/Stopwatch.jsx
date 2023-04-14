@@ -56,7 +56,6 @@ function Stopwatch() {
 
   return (
     <div className="stopwatch-container">
-      <div className="content-container">
         <div className="stopwatch-content">
           <div className="circle">
             <div className="formatTime-container">
@@ -79,8 +78,6 @@ function Stopwatch() {
             </ul>
           )}
         </div>   
-      </div>
-      
     </div>
   );
 }

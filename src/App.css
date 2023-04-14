@@ -10,7 +10,17 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
+}
 
-  
+@media screen and  (max-width: 430px)
+{
+  .App {
+    background-color: #9190f9;
+    width: 100%;
+    height: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+  }
 }

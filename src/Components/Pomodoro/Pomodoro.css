@@ -51,3 +51,29 @@
     box-shadow: inset 5px 5px 11px #353546,
                 inset -5px -5px 11px #4f4f68;
 }
+
+@media screen and (max-width: 430px) {
+    .pomodoro-circle {
+        margin-top: 5rem;
+        width: 35rem;
+        height: 35rem;
+        border-radius: 50%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: #7977dd;
+        box-shadow: inset -5px 5px 14px #605eaf,
+                    inset 5px -5px 14px #9290ff
+    }
+
+    .pomodoro-btn-container button, .btn-start-stop button {
+        width: 20rem;
+        border-radius: 74px;
+        background: #7977dd;
+        box-shadow:  -4px 4px 9px #716fce,
+                    4px -4px 9px #817fec;
+    }
+}

@@ -4,29 +4,17 @@
     width: 100%;
     height: 95%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-h1 {
-    color: #fff;
-}
-
-.content-container {
-    width: 95%;
-    height: 90%;
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .stopwatch-content {
     flex: 1;
+    height: 45rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
     Letter-spacing: 1rem;
     font-family: 'Bungee', sans-serif;
     border-radius: 3rem;
@@ -55,6 +43,7 @@ h1 {
     text-align: center;
     color: #fff;
     border-radius: 2px;
+    font-size: 2rem;
     background: #424257;
     box-shadow: inset 6px 6px 11px #20202a,
                 inset -6px -6px 11px #646484;
@@ -75,6 +64,7 @@ h1 {
     max-height: 44rem;  
     overflow-y: scroll;
 }
+  
 
 ul li {
     display: flex;
@@ -85,6 +75,7 @@ ul li {
     margin-top: 1.5rem;
     height: 2.5rem;
     width: 100%;
+    color: #f0f0f0;
     border-radius: 13px;
     background: #9190f9;
     box-shadow:  4px 4px 7px #7b7ad4,
@@ -102,4 +93,79 @@ button {
     height: 2.5rem;
     color: #fff;
     font-weight: 700;
+}
+
+@media screen and (max-width: 430px)
+{
+    .stopwatch-container {
+        width: 35rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .stopwatch-content {
+        width: 35rem;
+        height: 40rem;
+        border-radius: 1rem;
+        margin-top: 1rem;
+        background: #9190f9;
+        box-shadow:  13px 13px 31px #7170c2,
+                     -13px -13px 31px #b1b0ff;
+    }
+    
+    .circle{
+        width: 23rem;
+        height: 23rem;
+        border-radius: 50%;
+        background: #7977dd;
+        box-shadow: inset 4px 4px 18px #6a69c2,
+                    inset -4px -4px 18px #8885f8;
+    }
+    
+    .formatTime-container {
+        width: 17rem;
+        padding: 0 1rem;
+        text-align: center;
+        color: #fff;
+        font-size: 1.2rem;
+        border-radius: 2px;
+        background: #424257;
+        box-shadow: inset 6px 6px 11px #20202a,
+                    inset -6px -6px 11px #646484;
+        margin: 3rem 0 1rem 0;
+    }
+    
+    .list-container {
+        flex: 1;
+        list-style-type: none;
+        margin: .5rem;
+    }
+    
+    .list-container ul {
+        list-style-type: none;
+        margin: .5rem;
+        padding: 1rem;
+        height: 35rem;
+        max-height: 35rem;  
+        overflow-y: scroll;
+        text-align: center;
+    }
+    
+    ul li {
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 500;
+        align-items: center;
+        padding: 1rem;
+        margin-top: 1.5rem;
+        height: 2.5rem;
+        width: 24rem;
+        border-radius: 13px;
+        background: #9190f9;
+        box-shadow:  4px 4px 7px #7b7ad4,
+                     -4px -4px 7px #a7a6ff;
+    }
 }
