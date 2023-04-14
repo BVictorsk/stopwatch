@@ -10,8 +10,6 @@
 </div>
 
 ## Preview
-<hr/>
-<br/>
 
 ### Desktop
 <div style="display: flex; justify-content: flex-start; gap: 10px; margin-top: 15px; margin-bottom: 35px">
