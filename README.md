@@ -15,14 +15,14 @@
 
 ### Desktop
 <div style="display: flex; justify-content: flex-start; gap: 10px; margin-top: 15px; margin-bottom: 35px">
-<img src="./src/Assets/desktopV-stopwatch.png" alt="gif" style="width: 35rem; height: 23rem">
-<img src="./src/Assets/desktopV-pomodoro.png" alt="gif" style="width: 35rem; height: 23rem">
+<img src="./src/Assets/desktopV-stopwatch.PNG" alt="img" style="width: 35rem; height: 23rem">
+<img src="./src/Assets/desktopV-pomodoro.PNG" alt="img" style="width: 35rem; height: 23rem">
 </div>
 
 ### Mobile
 <div style="display: flex; justify-content: flex-start; gap: 10px;">
-<img src="./src/Assets/mobilev-stopwatch.jpg" alt="gif" style="width: 17rem; height: 33rem">
-<img src="./src/Assets/mobilev-pomodoro.jpg" alt="gif" style="width: 17rem; height: 33rem">
+<img src="./src/Assets/mobilev-stopwatch.jpg" alt="img" style="width: 17rem; height: 33rem">
+<img src="./src/Assets/mobilev-pomodoro.jpg" alt="img" style="width: 17rem; height: 33rem">
 </div>
 
 <br/>
