@@ -16,7 +16,7 @@
 ### Desktop
 <div style="display: flex; justify-content: flex-start; gap: 10px; margin-top: 15px; margin-bottom: 35px">
 <img src="./src/Assets/desktopV-stopwatch.PNG" alt="img" style="width: 35rem; height: 23rem">
-<img src="./src/Assets/desktopV-pomodoro.PNG" alt="img" style="width: 35rem; height: 23rem">
+<img src="./src/Assets/desktopv-pomodoro.PNG" alt="img" style="width: 35rem; height: 23rem">
 </div>
 
 ### Mobile
