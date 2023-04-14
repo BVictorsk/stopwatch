@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    Letter-spacing: 1rem;
+    letter-spacing: 1rem;
     font-family: 'Bungee', sans-serif;
     border-radius: 3rem;
     background: #9190f9;
@@ -107,7 +107,7 @@ button {
     }
 
     .stopwatch-content {
-        width: 35rem;
+        width: 30rem;
         height: 40rem;
         border-radius: 1rem;
         margin-top: 1rem;
@@ -117,8 +117,8 @@ button {
     }
     
     .circle{
-        width: 23rem;
-        height: 23rem;
+        width: 22rem;
+        height: 22rem;
         border-radius: 50%;
         background: #7977dd;
         box-shadow: inset 4px 4px 18px #6a69c2,
@@ -141,8 +141,10 @@ button {
     .list-container {
         flex: 1;
         list-style-type: none;
-        margin: .5rem;
+        margin-top: 1rem;
+        
     }
+
     
     .list-container ul {
         list-style-type: none;
